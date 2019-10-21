@@ -50,7 +50,7 @@ nav {
   font-family: SF Pro Text;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 22px;
   display: flex;
   align-items: flex-end;
@@ -62,9 +62,9 @@ nav {
 	position: absolute;
 	display: inline-flex;
 	width: 375px;
-	height: 35px;
+	height: 40px;
 	left: 0px;
-	top: 90px;
+	top: 85px;
 	box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.6);
 	background: #ADCBD2;
 }
@@ -149,14 +149,10 @@ nav {
 	color: #000000;
 }
 
-.divider {
-	position: absolute;
-	width: 375px;
-	height: 0px;
-	top: 130px;
-	border: 3px solid #FFFFFF;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	}
+.timetable{
+	position: relative;
+	top:40px;
+}
 
 .bus {
 	width: 375px;
