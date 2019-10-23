@@ -144,8 +144,8 @@ nav {
 }
 
 .timetable{
-	width: auto;
-	display: inline-block;
+	width: 375px;
+	display: block;
 	align-items: center;
 }
 
