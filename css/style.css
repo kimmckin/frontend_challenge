@@ -17,6 +17,9 @@ img.status-bar {
 	width: 375px;
 	left: 0px;
 	top: 0px;
+	srcset='images/illustration-small.png 1x,
+				images/illustration-big.png 2x'
+	style='max-width: 500px'
 }
 
 nav {
@@ -40,19 +43,18 @@ nav {
 }
 
 .title-bar h3 {
-  position: relative;
-  width: 200px;
+position: relative;
+ width: 200px;
   height: 22px;
-  left: calc(50% - 200px/2 - 1px);
-  top: 50%;
+	align-items: center;
+	left: calc(50% - 200px/2 - 1px);
   font-family: SF Pro Text;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
-  line-height: 22px;
+  line-height: 30px;
   display: flex;
   align-items: flex-end;
-  text-align: center;
   letter-spacing: -0.0241176em;
   color: #000000;}
 
@@ -77,7 +79,7 @@ nav {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	line-height: 41px;
+	line-height: 20px;
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.0120588em;
@@ -95,7 +97,7 @@ nav {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	line-height: 41px;
+	line-height: 20px;
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.0120588em;
@@ -114,7 +116,7 @@ nav {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	line-height: 41px;
+	line-height: 20px;
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -134,7 +136,7 @@ nav {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	line-height: 41px;
+	line-height: 20px;
 	display: flex;
 	align-items: center;
 	text-align: right;
@@ -146,6 +148,7 @@ nav {
 .timetable{
 	width: 375px;
 	display: block;
+	position: sticky;
 	align-items: center;
 }
 
